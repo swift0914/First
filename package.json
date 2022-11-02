@@ -1,8 +1,8 @@
 {
   "name": "demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
-    "release-major": "standard-version --release-as major",
+    "release-major": "standard-version --release-as major && git push --follow-tags",
     "release-minor": "standard-version --release-as minor",
     "release-patch": "standard-version --release-as patch"
   },
